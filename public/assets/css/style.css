@@ -1,0 +1,93 @@
+:root {
+  --primaryColor: #4bb155;
+  --onNavbar: #ffffff;
+  --ctaColor: #faf144;
+  --alternativeColor: #37517e;
+  --secondaryColor: #848484;
+}
+.cardOverlay {
+  background-color: var(--primaryColor);
+}
+.buttonStyle {
+  background-color: var(--ctaColor) !important;
+}
+.navbarStyle {
+  color: var(--onNavbar);
+}
+.hero {
+  color: var(--primaryColor);
+}
+.heroDefaultTitle {
+  color: var(--onNavbar);
+}
+.h3Color {
+  color: var(--primaryColor);
+}
+.pTitle {
+  color: var(--secondaryColor);
+}
+.h2Title {
+  color: var(--primaryColor);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+.openSans {
+  font-family: 'OpenSans' !important;
+}
+
+@font-face {
+  font-family: 'PtSerif';
+  src: url('/assets/fonts/PT_Serif/PTSerif-Regular.ttf');
+}
+@font-face {
+  font-family: 'Jost';
+  src: url('/assets/fonts/Jost/Jost-VariableFont_wght.ttf');
+}
+
+.ptSerif {
+  font-family: 'PtSerif';
+}
+.jost {
+  font-family: 'Jost';
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  .heroText {
+    width: 90%;
+  }
+  .heroParagraph {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1279px) {
+  .heroText {
+    width: 50%;
+  }
+  .heroParagraph {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  .heroText {
+    width: 50%;
+  }
+  .heroParagraph {
+    width: 70%;
+  }
+  /* .buttonStyle {
+    width: 40%;
+  } */
+}
+.social {
+  background-color: var(--primaryColor);
+  color: var(--onNavbar);
+}
+@media screen and (max-width: 599px) {
+  .heroText {
+    width: 100%;
+  }
+}

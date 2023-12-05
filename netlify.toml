@@ -1,0 +1,13 @@
+[build]
+  command = "npm run generate"
+  publish = "dist"
+
+[functions]
+  directory = "functions"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+

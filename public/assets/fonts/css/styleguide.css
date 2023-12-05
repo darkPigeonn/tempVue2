@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Lora:500,700|Cairo:400,700,600|Open+Sans:400,600|PT+Serif:700,400|Girassol:400|Roboto+Condensed:400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+:root {
+  --subheading: #253c56;
+  --heading1: #768a38;
+  --cta: #e1b000;
+  --accent: rgba(229, 211, 46, 1);
+  --brown: rgba(90, 82, 76, 1);
+  --button-font-family: 'Poppins-SemiBold', Helvetica;
+  --button-font-size: 16px;
+  --button-font-style: normal;
+  --button-font-weight: 600;
+  --button-letter-spacing: 0px;
+  --button-line-height: 22px;
+  --dark: rgba(13, 14, 12, 1);
+  --h6-left-font-family: 'Poppins-SemiBold', Helvetica;
+  --h6-left-font-size: 20px;
+  --h6-left-font-style: normal;
+  --h6-left-font-weight: 600;
+  --h6-left-letter-spacing: 0px;
+  --h6-left-line-height: 26px;
+  --heading: rgba(33, 52, 48, 1);
+  --light: rgba(235, 229, 219, 1);
+  --lighttext-colorbody-1: rgba(39, 39, 39, 1);
+  --lighttext-colortitle: rgba(17, 20, 45, 1);
+  --primary: rgba(43, 105, 86, 1);
+  --solid-1: rgba(11, 153, 72, 1);
+  --text-18-semibold-font-family: 'Poppins-SemiBold', Helvetica;
+  --text-18-semibold-font-size: 18px;
+  --text-18-semibold-font-style: normal;
+  --text-18-semibold-font-weight: 600;
+  --text-18-semibold-letter-spacing: 0px;
+  --text-18-semibold-line-height: 26px;
+  --variable-collection-CIM: rgba(39, 103, 78, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'Monserrat';
+  src: url('/public/assets/Monserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSerif';
+  src: url('/public/assets/PT_Serif/PTSerif-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lora';
+  src: url('/public/assets/Lora/Lora-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('/public/assets/Cairo/Cairo-VariableFont_slnt\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/public/assets/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/public/assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+.ptserrifText {
+  font-family: 'PtSerif';
+}
+.monserratText {
+  font-family: 'Montserrat';
+}
+.cairoText {
+  font-family: 'Cairo';
+}
+.loraText {
+  font-family: 'Lora';
+}
+.opensansText {
+  font-family: 'OpenSans';
+}
+.poppinsText {
+  font-family: 'Poppins';
+}
+body {
+  font-family: 'Monserrat', sans-serif;
+}

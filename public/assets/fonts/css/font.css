@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Monserrat';
+  src: url('/public/assets/Monserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Monserrat', sans-serif;
+}
